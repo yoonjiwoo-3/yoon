@@ -34,9 +34,9 @@ Google colab으로 업로드하여야 한다. 이와 관련하여 다음의 질�
 
 데이터셋은 아래 공유링크 참고
 
-<https://drive.google.com/drive/folders/1vs7G8HHdmMjJZvC6XX_eVrevkOADEDc3?usp=drive_link>
+Test: <https://drive.google.com/drive/folders/1vs7G8HHdmMjJZvC6XX_eVrevkOADEDc3?usp=drive_link>
 
-<https://drive.google.com/drive/folders/1raEi5n7z8Uv4fLAhfssg1CVl0qpFxkGA?usp=drive_link>
+Training: <https://drive.google.com/drive/folders/1raEi5n7z8Uv4fLAhfssg1CVl0qpFxkGA?usp=drive_link>
 
 #2-2
 
