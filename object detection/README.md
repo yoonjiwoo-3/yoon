@@ -1,5 +1,8 @@
 ### object detection
 
+## 스타터
+
+
 # 1-1. Training과 Test 데이터의 이미지 수
 
 - Training: 9023장  
@@ -38,7 +41,33 @@ Test: <https://drive.google.com/drive/folders/1vs7G8HHdmMjJZvC6XX_eVrevkOADEDc3?
 
 Training: <https://drive.google.com/drive/folders/1raEi5n7z8Uv4fLAhfssg1CVl0qpFxkGA?usp=drive_link>
 
-#2-2
+# 3-1
+해양 침적 쓰레기 검출을 위하여 사용 가능한 알고리즘/모델에는 어떠한 것들이 
+있는가? 최소 3가지 이상의 알고리즘/모델을 탐색하고 그 중 한 가지를 선택.
+선택한 이유에 대해서 설명.
+
+
+Yolo, Faster R-CNN, SSD(Single Shot MultiBox Detector)
+Yolo 선택/ 고도로 일반화되어 예상치 못한 입력을 받아도 R-CNN보다 훨씬 탁월한 성능을 보이며,이미지전체를 보기에 클래스에 대한 맥락적인 정보와 모양을 암시적으로 인코딩함으로써 Fast R-CNN과 같은 알고리즘과 다르게 배경을 객체로 잘못 예측하는 실수를 하지 않음.
+
+
+
+# 3-2
+선택한 알고리즘/모델을 구현/실행하여 mAP@IoU 50% (50% 이상 중첩되었을 
+경우의 mean Average Precision)을 계산.
+
+yolo로 구현하지 못하고 mlp로 바꿔서 구현한 결과
+
+**mAP@IoU 50%: 0.3858**
+
+
+# 3-3
+모델이 잘못 분류한 영상/객체에 대해서 분석하고, 해당 문제의 발생 이유를 설명.
+
+예측을 제대로 하지 못함
+
+
+
 
 
 
