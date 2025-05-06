@@ -20,3 +20,27 @@ xml 형태의 라벨링 데이터를 읽는 코드작성 및 내용 분석
 ![1-3](https://github.com/yoonjiwoo-3/yoon/blob/main/object%20detection/1-3.png)
 
 
+# 2-1
+Object detection(객체인식) 모델을 학습하기 위해 영상 데이터와 메타데이터를 
+Google colab으로 업로드하여야 한다. 이와 관련하여 다음의 질문에 답.
+개별 파일로 존재하는 영상 데이터와 메타 데이터를 어떠한 방식으로 업로드 ? 
+영상 데이터와 메타 데이터를 Colab 환경에서 어떠한 구조로 저장하였는가?  
+해당 구조를 선택한 이유?
+
+
+트레이닝 폴더와 테스트 폴더를 따로 만들어 각각 이미지와 라벨 폴더를 옮겨 놓은 뒤 폴더 두가지를 구글 코랩에 업로드했다. Colab 환경에서는 Google Drive를 마운트하여 데이터 저장소로 사용하였으며, 이미지데이터와 라벨데이터를 아래와 같은 디렉토리 구조로 구분하여 저장.
+
+![2-1](https://github.com/yoonjiwoo-3/yoon/blob/main/object%20detection/2-1.png)
+
+데이터셋은 아래 공유링크 참고
+
+<https://drive.google.com/drive/folders/1vs7G8HHdmMjJZvC6XX_eVrevkOADEDc3?usp=drive_link>
+
+<https://drive.google.com/drive/folders/1raEi5n7z8Uv4fLAhfssg1CVl0qpFxkGA?usp=drive_link>
+
+#2-2
+
+
+
+
+
